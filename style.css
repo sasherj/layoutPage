@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    color: #ffffff;;
+    text-decoration-style: none;
+    background-color: rgba(30, 144, 253, 0.6);
+    margin: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+
+}
+h1{
+    font-style: normal;
+    font-size:2em;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+header, footer, nav, section{
+    border: 1px solid rgba(220, 224, 198, 0.6);
+    margin: 10px;
+    border-radius: 5px;
+}
+header, footer{
+    padding: 20px 0px;
+}
+nav,section{
+    padding: 100px 0px;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+nav, section, footer{
+    float: left;
+}
+nav{
+    width: 200px;
+    margin-right: 10px;
+}
+section{
+    width: 655px;
+}
+footer{
+    width: 880px;
+}
